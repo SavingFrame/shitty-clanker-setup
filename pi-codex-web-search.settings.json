@@ -1,0 +1,5 @@
+{
+  "defaultMode": "fast",
+  "fastFreshness": "cached",
+  "deepFreshness": "live"
+}

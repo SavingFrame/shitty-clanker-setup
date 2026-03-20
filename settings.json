@@ -1,0 +1,28 @@
+{
+  "lastChangelogVersion": "0.61.0",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.4",
+  "defaultThinkingLevel": "medium",
+  "theme": "rose-pine",
+  "hideThinkingBlock": true,
+  "packages": [
+    "npm:pi-extmgr",
+    {
+      "source": "git:github.com/aliou/pi-extensions",
+      "extensions": [
+        "extensions/guardrails"
+      ]
+    },
+    "npm:pi-librarian",
+    "npm:pi-subagents",
+    "npm:pi-mcp-adapter",
+    "npm:pi-rewind-hook",
+    "npm:pi-powerline-footer",
+    "npm:pi-codex-web-search",
+    "npm:pi-rtk-optimizer",
+    "npm:pi-verbosity-control"
+  ],
+  "transport": "websocket",
+  "collapseChangelog": false,
+  "quietStartup": false
+}

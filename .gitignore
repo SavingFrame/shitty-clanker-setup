@@ -1,0 +1,6 @@
+.extmgr-cache/
+mcp-oauth/
+sessions/
+auth.json
+mcp-cache.json
+run-history.jsonl

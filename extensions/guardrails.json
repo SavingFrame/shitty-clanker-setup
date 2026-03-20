@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "features": {
+    "preventBrew": false,
+    "preventPython": true,
+    "protectEnvFiles": true,
+    "permissionGate": true,
+    "enforcePackageManager": false
+  },
+  "packageManager": {
+    "selected": "npm"
+  },
+  "envFiles": {
+    "protectedPatterns": ["\\.env$", "\\.env\\.local$"],
+    "allowedPatterns": [
+      "\\.(example|sample|test)\\.env$",
+      "\\.env\\.(example|sample|test)$"
+    ],
+    "protectedDirectories": [],
+    "protectedTools": ["read", "write", "edit", "bash", "grep", "find", "ls"],
+    "onlyBlockIfExists": true,
+    "blockMessage": "Accessing {file} is not allowed. ..."
+  },
+  "permissionGate": {
+    "patterns": [
+      { "pattern": "rm\\s+-rf", "description": "recursive force delete" }
+    ],
+    "customPatterns": [],
+    "requireConfirmation": true,
+    "allowedPatterns": [],
+    "autoDenyPatterns": []
+  }
+}

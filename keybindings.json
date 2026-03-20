@@ -1,0 +1,18 @@
+{
+  "tui.input.newLine": [
+    "alt+enter"
+  ],
+  "tui.select.up": [
+    "up",
+    "ctrl+p"
+  ],
+  "tui.select.down": [
+    "down",
+    "ctrl+n"
+  ],
+  "app.model.cycleForward": [],
+  "app.model.cycleBackward": [],
+  "app.message.followUp": [
+    "ctrl+enter"
+  ]
+}
