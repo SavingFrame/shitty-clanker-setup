@@ -31,10 +31,10 @@ pi-codex-web-search.settings.json
 
 | Filename | Description | Author |
 | --- | --- | --- |
-| [`extensions/edit.ts`](./extensions/edit.ts) | Customized edit tool with fuzzy matching and nicer diff handling. | archie |
-| [`extensions/built-in-tool-renderer.ts`](./extensions/built-in-tool-renderer.ts) | Compact “thinking”-style renderer for built-in tools. | archie |
+| [`extensions/edit.ts`](./extensions/edit.ts) | Customized edit tool with fuzzy matching and nicer diff handling. | |
+| [`extensions/built-in-tool-renderer.ts`](./extensions/built-in-tool-renderer.ts) | Compact “thinking”-style renderer for built-in tools. | |
 | [`extensions/guardrails.json`](./extensions/guardrails.json) | Guardrails config for safer shell and file operations. | [@aliou](https://github.com/aliou) |
-| [`extensions/pi-rtk-optimizer/config.json`](./extensions/pi-rtk-optimizer/config.json) | RTK output compaction and rewrite settings. | archie |
+| [`extensions/pi-rtk-optimizer/config.json`](./extensions/pi-rtk-optimizer/config.json) | RTK output compaction and rewrite settings. | |
 
 ### Linked from `agent-stuff`
 
