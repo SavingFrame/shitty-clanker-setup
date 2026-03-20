@@ -12,19 +12,6 @@ This repo collects my local Pi setup:
 
 A few files here are symlinked from [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff), so this repo is partly a curated Pi config and partly a mirror of pieces I use from that setup.
 
-## Layout
-
-```text
-settings.json                # main Pi config
-keybindings.json             # TUI key overrides
-mcp.json                     # MCP server config
-themes/                      # custom themes
-extensions/                  # local + linked extensions
-skills/                      # local + linked skills
-verbosity.json               # verbosity control config
-pi-codex-web-search.settings.json
-```
-
 ## Extensions
 
 ### Local / customized
