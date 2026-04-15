@@ -1,0 +1,5 @@
+{
+  "configPath": "/home/archie/.pi/agent/mcporter-config.json",
+  "timeoutMs": 30000,
+  "mode": "lazy"
+}

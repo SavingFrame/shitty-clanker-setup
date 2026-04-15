@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.61.0",
+  "lastChangelogVersion": "0.67.3",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.4",
   "defaultThinkingLevel": "medium",
@@ -15,14 +15,19 @@
     },
     "npm:pi-librarian",
     "npm:pi-subagents",
-    "npm:pi-mcp-adapter",
+    "npm:pi-mcporter",
     "npm:pi-rewind-hook",
     "npm:pi-powerline-footer",
     "npm:pi-codex-web-search",
     "npm:pi-rtk-optimizer",
-    "npm:pi-verbosity-control"
+    "npm:pi-verbosity-control",
+    "npm:pi-ask-user",
+    "npm:pi-btw",
+    "npm:pi-docparser",
+    "git:github.com/earendil-works/pi-review"
   ],
   "transport": "websocket",
   "collapseChangelog": false,
-  "quietStartup": false
+  "quietStartup": false,
+  "editorPaddingX": 2
 }

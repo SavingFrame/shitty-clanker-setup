@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/steipete/mcporter/main/mcporter.schema.json",
+  "mcpServers": {
+    "notion": {
+      "baseUrl": "https://mcp.notion.com/mcp",
+      "auth": "oauth"
+    }
+  }
+}

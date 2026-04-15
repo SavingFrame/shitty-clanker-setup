@@ -1,0 +1,7 @@
+{
+  "enabledFeatures": [
+    "builtInToolEnhancements",
+    "agentTools",
+    "statusUI"
+  ]
+}
