@@ -1,6 +1,6 @@
 # Pi agent setup
 
-Personal configuration for the [Pi coding agent](https://github.com/badlogic/pi-mono).
+Personal configuration for the [Pi coding agent](https://github.com/earendil-works/pi-mono).
 
 This repo collects my local Pi setup:
 
@@ -36,7 +36,7 @@ A few files here are symlinked from [mitsuhiko/agent-stuff](https://github.com/m
 
 | Filename | Description | Author |
 | --- | --- | --- |
-| [`extensions/plan-mode`](./extensions/plan-mode) | Symlink to the upstream Pi `plan-mode` example. | [@badlogic](https://github.com/badlogic) |
+| [`extensions/plan-mode`](./extensions/plan-mode) | Symlink to the upstream Pi `plan-mode` example. | [@earendil-works](https://github.com/earendil-works) |
 
 ## Themes
 
