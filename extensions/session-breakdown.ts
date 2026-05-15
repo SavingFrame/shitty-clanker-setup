@@ -1,1 +1,1 @@
-/home/archie/.config/agent-stuff/pi-extensions/session-breakdown.ts
+/home/archie/.config/agent-stuff/extensions/session-breakdown.ts
