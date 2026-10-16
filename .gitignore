@@ -4,3 +4,11 @@ sessions/
 auth.json
 mcp-cache.json
 run-history.jsonl
+auto-title.log
+mcp-auth.json
+mcp.json
+models-store.json
+npm/
+pi-fff/
+trust.json
+web-search-cache/

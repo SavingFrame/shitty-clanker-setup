@@ -14,8 +14,8 @@
  */
 
 import { execFile, execFileSync } from "node:child_process";
-import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
-import { Markdown, type MarkdownTheme } from "@mariozechner/pi-tui";
+import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
+import { Markdown, type MarkdownTheme } from "@earendil-works/pi-tui";
 
 const sanitizeOscField = (value: string): string =>
 	value
@@ -175,7 +175,11 @@ const formatNotification = (text: string | null): { title: string; body: string 
 };
 
 export default function (pi: ExtensionAPI) {
-	pi.on("agent_end", async (event) => {
+	pi.on("agent_end", async (event, ctx) => {
+		// RPC and JSON modes reserve stdout for protocol records.
+		if (ctx.mode !== "tui") {
+			return;
+		}
 		const lastText = extractLastAssistantText(event.messages ?? []);
 		const { title, body } = formatNotification(lastText);
 		notify(withTmuxSessionInTitle(title), body);

@@ -1,38 +1,55 @@
 {
-  "lastChangelogVersion": "0.74.0",
-  "defaultProvider": "openai-codex-personal",
-  "defaultModel": "gpt-5.5",
+  "lastChangelogVersion": "1.3.0",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-6.1-sol",
   "defaultThinkingLevel": "medium",
-  "theme": "moonfly",
-  "hideThinkingBlock": true,
+  "defaultTools": [
+    "+codemode"
+  ],
+  "theme": "noctalia",
+  "hideThinkingBlock": false,
   "packages": [
     "npm:pi-extmgr",
-    "npm:pi-subagents",
-    "npm:pi-mcp-adapter",
-    "npm:pi-codex-web-search",
     "npm:pi-btw",
     "npm:pi-docparser",
     "git:github.com/earendil-works/pi-review",
     "git:https://github.com/SavingFrame/pi-diff-review",
-    "npm:pi-ask-user",
-    "npm:@benvargas/pi-claude-code-use",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    {
+      "source": "npm:@benvargas/pi-claude-code-use",
+      "extensions": [
+        "-extensions/index.ts"
+      ]
+    },
     "git:github.com/edxeth/pi-gpt-config",
-    "npm:@carlosgtrz/pi-codex-aliases"
+    "npm:@carlosgtrz/pi-codex-aliases",
+    "npm:pi-web-access"
   ],
   "transport": "auto",
   "collapseChangelog": false,
   "quietStartup": false,
-  "editorPaddingX": 2,
+  "editorPaddingX": 0,
   "terminal": {
     "showTerminalProgress": true
   },
   "gptConfig": {
     "fastMode": false,
-    "personality": "claude",
+    "personality": "none",
     "verbosity": "low",
     "summary": "none",
     "toolDiscipline": "off",
     "showFooter": true
   },
-  "treeFilterMode": "default"
+  "treeFilterMode": "default",
+  "markdown": {
+    "mermaid": "streaming"
+  },
+  "showCacheMissNotices": true,
+  "tuiMode": "fullscreen",
+  "fullscreenScrollbar": "auto",
+  "enabledModels": [
+    "openai-codex/gpt-6-astra",
+    "openai-codex/gpt-6-sol",
+    "openai-codex/gpt-6.1-sol"
+  ]
 }
