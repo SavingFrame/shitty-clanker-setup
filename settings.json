@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "1.3.0",
+  "lastChangelogVersion": "1.5.0",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-6.1-sol",
   "defaultThinkingLevel": "medium",
@@ -7,7 +7,7 @@
     "+codemode"
   ],
   "theme": "noctalia",
-  "hideThinkingBlock": false,
+  "hideThinkingBlock": true,
   "packages": [
     "npm:pi-extmgr",
     "npm:pi-btw",
@@ -49,7 +49,14 @@
   "fullscreenScrollbar": "auto",
   "enabledModels": [
     "openai-codex/gpt-6-astra",
-    "openai-codex/gpt-6-sol",
-    "openai-codex/gpt-6.1-sol"
-  ]
+    "openai-codex/gpt-6.1-sol",
+    "openai-codex-work/gpt-6.1-sol",
+    "openai-codex/gpt-6-luna",
+    "openai-codex-work/gpt-6-luna"
+  ],
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-extmgr\",\"scope\":\"user\"}": "0.4.2",
+    "{\"source\":\"npm:pi-docparser\",\"scope\":\"user\"}": "4.0.0",
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.46.0"
+  }
 }
